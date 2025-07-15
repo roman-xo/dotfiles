@@ -1,4 +1,4 @@
-# Roman's BSPWM Rice / Dot files
+# Roman's BSPWM Rice / Dot Files
 
 ![Screenshot Showcase](images/desktop.png)
 ![Example 2](images/desktop2.png)
