@@ -1,4 +1,4 @@
-# Roman's BSPWM Rice / Dot files (With Install Script)
+# Roman's BSPWM Rice / Dot files
 
 ![Screenshot Showcase](images/desktop.png)
 ![Example 2](images/desktop2.png)
