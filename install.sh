@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DOTFILES_DIR="$HOME/.dotfiles"
-REPO_URL="https://github.com/roman-xo/new.git"
+REPO_URL="https://github.com/roman-xo/dot-files.git"
 
 echo ":: Updating Arch ..."
 sudo pacman -Syu --noconfirm
