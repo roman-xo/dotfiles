@@ -1,0 +1,5 @@
+# my clean config 4 nano purposes
+set linenumbers
+set numbercolor brightmagenta,black
+set nohelp
+set titlecolor white,black

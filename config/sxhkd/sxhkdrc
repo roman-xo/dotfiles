@@ -1,0 +1,70 @@
+#!/bin/sh
+
+# Open termminal
+super + Return
+	kitty
+
+# Close focused window
+super + q
+	bspc node -c
+
+# Reload sxhkd
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Quit bspwm
+super + alt + q
+	bspc quit
+
+# Switch focus
+super + {h,j,k,l}
+	bspc node -f {west,south,north,east}
+
+# Move focused window
+super + shift + {h,j,k,l}
+	bspc node -s {west,south,north,east}
+ 
+# Launch rofi
+super + a
+	/home/roman/.config/rofi/launchers/type-6/launcher.sh
+
+# Switch to desktop 1-6
+ctrl + {1-6}
+    bspc desktop --focus {1-6}
+
+# Move focused window to desktop 1-6
+ctrl + shift + {1-6}
+    bspc node -d ^{1-6}
+
+# Volume Laptop Keys
+XF86AudioRaiseVolume
+    ~/.config/bspwm/scripts/volume.sh up
+
+XF86AudioLowerVolume
+    ~/.config/bspwm/scripts/volume.sh down
+
+XF86AudioMute
+    ~/.config/bspwm/scripts/volume.sh mute
+
+# Brightness Laptop Keys
+XF86MonBrightnessUp
+    ~/.config/bspwm/scripts/brightness.sh up
+
+XF86MonBrightnessDown
+    ~/.config/bspwm/scripts/brightness.sh down
+
+# Media
+XF86AudioPlay
+    ~/.config/bspwm/scripts/media.sh play
+
+XF86AudioNext
+    ~/.config/bspwm/scripts/media.sh next
+
+XF86AudioPrev
+    ~/.config/bspwm/scripts/media.sh prev
+
+
+# Focus next window
+super + z
+    bspc node -f next.local
+

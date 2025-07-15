@@ -1,0 +1,44 @@
+[global]
+    notification_limit = 1
+    history_length = 0
+    stack_duplicates = false
+    discard_duplicates = true
+    show_indicators = false
+    idle_threshold = 0
+    replace = yes
+    follow = mouse
+    width = 300
+    height = 80
+    origin = top-right
+    offset = 10x40
+    frame_width = 2
+    frame_color = "#89b4fa"
+    corner_radius = 10
+    font = JetBrainsMono Nerd Font 9
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    word_wrap = true
+    ellipsize = end
+    ignore_newline = no
+    progress_bar = true
+    progress_bar_height = 4
+    progress_bar_frame_width = 0
+    mouse_left_click = close_current
+    mouse_middle_click = close_all
+    mouse_right_click = do_action
+
+[urgency_low]
+    timeout = 1
+    background = "#1e1e2e"
+    foreground = "#a6adc8"
+
+[urgency_normal]
+    timeout = 2
+    background = "#1e1e2e"
+    foreground = "#cdd6f4"
+
+[urgency_critical]
+    timeout = 3
+    background = "#1e1e2e"
+    foreground = "#f38ba8"
