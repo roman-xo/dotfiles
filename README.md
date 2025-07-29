@@ -39,7 +39,7 @@ The install script will automate these via `pacman` and AUR.
 
 ## Installation  
 
-<details>
+<details open>
   <summary><strong> Install Using Script </strong></summary>
 
 ### Requirements:
