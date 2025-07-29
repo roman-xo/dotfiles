@@ -37,7 +37,7 @@ The install script will automate these via `pacman` and AUR.
 </details>
 
 
-### Installation  
+## Installation  
 
 <details>
   <summary><strong> Install Using Script </strong></summary>
