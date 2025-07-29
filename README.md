@@ -37,7 +37,7 @@ The install script will automate these via `pacman` and AUR.
 </details>
 
 
-## 💻 Installation  
+### Installation  
 
 <details>
   <summary><strong> Install Using Script </strong></summary>
@@ -55,17 +55,17 @@ The install script will automate these via `pacman` and AUR.
 1. Install Git:
 
 ```bash
-» sudo pacman -S git
+~ » sudo pacman -S git
 ```
 2. Clone this repository
 ```bash
-» git clone https://github.com/roman-xo/dot-files
+~ » git clone https://github.com/roman-xo/dot-files
 ```
 3. Run the Installer
 ```bash
-» cd ~/dot-files
-» chmod +x install.sh
-» ./install.sh
+~ » cd ~/dot-files
+~ » chmod +x install.sh
+~ » ./install.sh
 ```
 This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and reboots into your new environment.  
   
