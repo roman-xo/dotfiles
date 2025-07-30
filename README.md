@@ -1,6 +1,6 @@
 # Roman's BSPWM Rice / Dot Files
 
-![Screenshot Showcase](images/desktop1.png)
+![Screenshot Showcase](images/desktop3.png)
 ![Example 2](images/desktop2.png)
 
   <details>
