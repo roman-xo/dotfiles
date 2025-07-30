@@ -1,7 +1,7 @@
 # Roman's BSPWM Rice / Dot Files
 
-![Screenshot Showcase](images/desktop3.png)
-![Example 2](images/desktop2.png)
+![Screenshot Showcase](images/desktop1.png)
+![Example 2](images/desktop3.png)
 
   <details>
   <summary>Laptop Post-Install</summary>
