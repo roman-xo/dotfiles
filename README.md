@@ -13,7 +13,7 @@
 
 A lightweight, minimalist Linux environment built for speed, automation, and dynamic theming. Originally developed to migrate my DE/WM to my ThinkPad T490, this setup is now optimized for use across multiple devices.
 
-**NOTE:** This setup and install script assume an Arch-based system (e.g. `pacman`, `yay`, Arch file structure).  
+**NOTE:** This setup and install script assumes an Arch-based system (e.g. `pacman`, `yay`, Arch file structure).  
 If you're using another distribution you <u>*will*</u> need to tweak accordingly.
 
 ## Dependencies
