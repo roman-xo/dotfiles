@@ -99,3 +99,4 @@ This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and
   wal -i <path-to-image>
   ```
 - You can use nitrogen or feh to manually change the wallpaper or adjust if needed.
+asdasd
