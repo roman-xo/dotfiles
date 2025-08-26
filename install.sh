@@ -11,7 +11,7 @@ echo ":: Installing Dependencies ..."
 sudo pacman -S --needed --noconfirm \
   bspwm sxhkd polybar rofi dunst libnotify nitrogen picom feh \
   kitty zsh \
-  xorg xorg-xinit networkmanager sddm \
+  xorg xorg-xinit networkmanager sddm pavucontrol \
   noto-fonts noto-fonts-cjk noto-fonts-emoji \
   ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono \
   git curl unzip wget brightnessctl pamixer playerctl bc \
