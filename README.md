@@ -18,20 +18,20 @@ If you're using another distribution you <u>*will*</u> need to tweak accordingly
 
 ## Dependencies
 
-The install script will automate these via `pacman` and AUR.
+The install script will automate these via pacman and AUR.
 
 | Package         | Purpose                                       |
 |------------------|-----------------------------------------------|
-| `bspwm`          | Tiling window manager                         |
-| `sxhkd`          | Hotkey daemon to control bspwm                |
-| `picom`          | Compositor for transparency and animations    |
-| `polybar`        | Custom status bar                             |
-| `rofi`           | Application launcher (with dynamic theming)   |
-| `dunst`          | Lightweight notification daemon               |
-| `pywal`          | Generates color schemes from wallpaper        |
-| `brightnessctl`  | Controls screen brightness via hotkeys        |
-| `pamixer`        | CLI audio control (volume/mute, used in bar)  |
-| `ttf-geist` + `ttf-geist-mono` | Primary UI + terminal fonts     |
+|  bspwm           | Tiling window manager                         |
+|  sxhkd           | Hotkey daemon to control bspwm                |
+|  picom           | Compositor for transparency and animations    |
+|  polybar         | Custom status bar                             |
+|  rofi            | Application launcher (with dynamic theming)   |
+|  dunst           | Lightweight notification daemon               |
+|  pywal           | Generates color schemes from wallpaper        |
+|  brightnessctl   | Controls screen brightness via hotkeys        |
+|  pamixer         | CLI audio control (volume/mute, used in bar)  |
+|  ttf-geist + ttf-geist-mono    | Primary UI + terminal fonts     |
 
 </div>
 </details>
