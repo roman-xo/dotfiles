@@ -74,7 +74,7 @@ This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and
 <details> 
   <summary><strong>Manually Clone Repository</strong></summary>  
 ‎ 
-
+<div style="padding-top: 5px;">
 1. Clone the repository:
 ```bash
 ~ » git clone https://github.com/roman-xo/dot-files
@@ -89,7 +89,7 @@ This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and
 
 ## Notes
 
-- You can enable window animations with `picom`, simply add the following line in `~/.config/picom/picom.conf`:
+- You can enable window animations with picom, simply add the following line in `~/.config/picom/picom.conf`:
 
 ```bash
   @include "picom-animations.conf"
