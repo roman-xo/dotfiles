@@ -1,0 +1,29 @@
+/* Collapse Firefox sidebar to show only icons (Sidebery) */
+#sidebar-box {
+  min-width: 48px !important;
+  max-width: 48px !important;
+  overflow: hidden !important;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.6;
+}
+
+#sidebar-box:hover {
+  max-width: 300px !important; /* or whatever width you want for full view */
+  min-width: 300px !important;
+  opacity: 1;
+}
+
+/* Hide the "Tabs" header title */
+#sidebar-header {
+  display: none !important;
+}
+
+#sidebar-button {
+    display: none !important;
+}
+
+/* Hide the horizontal tab bar */
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
