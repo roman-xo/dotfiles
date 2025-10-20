@@ -89,7 +89,7 @@ This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and
 
 ## Notes
 
-- You can enable window animations with picom, simply add the following line in `~/.config/picom/picom.conf`:
+- You can enable window animations with picom, simply add the following line in ` ~/.config/picom/picom.conf `:
 
 ```bash
   @include "picom-animations.conf"
