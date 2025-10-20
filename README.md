@@ -59,11 +59,11 @@ The install script will automate these via pacman and AUR.
 ```
 2. Clone this repository
 ```bash
-~ » git clone https://github.com/roman-xo/dot-files
+~ » git clone https://github.com/roman-xo/dotfiles
 ```
 3. Run the Installer
 ```bash
-~ » cd ~/dot-files
+~ » cd ~/dotfiles
 ~ » chmod +x install.sh
 ~ » ./install.sh
 ```
@@ -77,7 +77,7 @@ This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and
 <div style="padding-top: 5px;">
 1. Clone the repository:
 ```bash
-~ » git clone https://github.com/roman-xo/dot-files
+~ » git clone https://github.com/roman-xo/dotfiles
 ```
 
 2. Remove README:
