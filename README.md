@@ -64,7 +64,7 @@ The install script will automate these via pacman and AUR.
 3. Run the Installer
 ```bash
 ~ » cd ~/dotfiles
-~ » chmod +x install.sh
+~ » chmod +X install.sh
 ~ » ./install.sh
 ```
 This script installs all dependencies, sets up dotfiles, fonts, pywal, SDDM, and reboots into your new environment.  
