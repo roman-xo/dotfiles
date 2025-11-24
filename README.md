@@ -1,6 +1,6 @@
 # Roman's BSPWM Rice / DotFiles
 
-<video src="./video/video.mp4" width="320" height="240" controls></video>
+https://github.com/user-attachments/assets/fcb1e2b1-36db-456f-a35e-fedbcfc15655
 ![Screenshot Showcase](images/img1.png)
 ![Example 2](images/img2.png)
 
