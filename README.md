@@ -3,7 +3,7 @@
 https://github.com/user-attachments/assets/fcb1e2b1-36db-456f-a35e-fedbcfc15655
 
 ![Screenshot Showcase](images/img4.png)
-![Example 2](images/img3.png)
+![Example 2](images/img2.png)
 
   <details>
   <summary>Laptop Post-Install</summary>
