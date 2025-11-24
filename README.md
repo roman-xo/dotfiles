@@ -1,7 +1,8 @@
-# Roman's BSPWM Rice / Dot Files
+# Roman's BSPWM Rice / DotFiles
 
-![Screenshot Showcase](images/desktop1.png)
-![Example 2](images/update.png)
+<video src="./video/video.mp4" width="320" height="240" controls></video>
+![Screenshot Showcase](images/img1.png)
+![Example 2](images/img2.png)
 
   <details>
   <summary>Laptop Post-Install</summary>
@@ -11,8 +12,8 @@
   </details>
 
 
-**NOTE:** This setup and install script assumes an Arch-based system (e.g. `pacman`, `yay`, Arch file structure).  
-If you're using another distribution you <u>*will*</u> need to tweak accordingly.
+**NOTE:** This setup and install script assumes an Arch-based system.  
+If you're using another distribution you <u>*will*</u> need to tweak accordingly. There are also configurations that are hard-coded, so some additional tweaking will be needed after using the script
 
 ## Dependencies
 

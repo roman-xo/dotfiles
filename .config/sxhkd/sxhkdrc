@@ -1,6 +1,10 @@
 #!/bin/sh
 
-# Open termminal
+##################
+### Basic shi ####
+##################
+
+# Open terminal
 super + Return
 	kitty
 
@@ -8,33 +12,43 @@ super + Return
 super + q
 	bspc node -c
 
-# Reload sxhkd
-super + Escape
-	pkill -USR1 -x sxhkd
+# Switch workspaces 1-6
+ctrl + {1-6}
+    bspc desktop --focus {1-6}
 
-# Quit bspwm
-super + alt + q
-	bspc quit
 
-# Switch focus
+####################
+### Window stuff ###
+####################
+
+# Switch focus specifically
 super + {h,j,k,l}
 	bspc node -f {west,south,north,east}
+
+# Focus next window (spam this 1 til desired effect)
+super + z
+    bspc node -f next.local
 
 # Move focused window
 super + shift + {h,j,k,l}
 	bspc node -s {west,south,north,east}
+
+# Swap positions w/ 2 windows open
+super + s
+        bspc node -s @brother.local
  
-# Launch rofi
-super + a
-	/home/roman/.config/rofi/launchers/type-6/launcher.sh
-
-# Switch to desktop 1-6
-ctrl + {1-6}
-    bspc desktop --focus {1-6}
-
-# Move focused window to desktop 1-6
+# Move focused window to desktop 1-6 (current monitor only)
 ctrl + shift + {1-6}
-    bspc node -d ^{1-6}
+    bspc node -d {1-6}
+
+# Send window to other monitor and follow it
+ctrl + shift + 0
+    bspc node -m HDMI-A-0 --follow
+
+
+##################
+### Laptop shi ###
+##################
 
 # Volume Laptop Keys
 XF86AudioRaiseVolume
@@ -53,7 +67,7 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
     ~/.config/bspwm/scripts/brightness.sh down
 
-# Media
+# Media Keys
 XF86AudioPlay
     ~/.config/bspwm/scripts/media.sh play
 
@@ -64,7 +78,18 @@ XF86AudioPrev
     ~/.config/bspwm/scripts/media.sh prev
 
 
-# Focus next window
-super + z
-    bspc node -f next.local
+#######################
+### Program hotkeys ###
+#######################
 
+# Launch rofi
+super + a
+        ~/.config/rofi/launchers/type-3/launcher.sh
+
+# Reload sxhkd
+super + Escape
+        pkill -USR1 -x sxhkd
+
+# Quit bspwm
+super + alt + q
+        bspc quit
