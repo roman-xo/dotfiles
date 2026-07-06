@@ -1,5 +1,8 @@
 # Roman's BSPWM Rice / DotFiles
 
+## ⚠️ Notice: These dotfiles are currently outdated and are not being actively maintained. I'll be refreshing the repository with my latest setup in the future :)
+
+
 https://github.com/user-attachments/assets/fcb1e2b1-36db-456f-a35e-fedbcfc15655
 
 ![Screenshot Showcase](images/img50.png)
