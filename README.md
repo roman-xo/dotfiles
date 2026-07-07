@@ -1,6 +1,6 @@
 # Roman's BSPWM Rice / DotFiles
 
-## ⚠️ Notice: These dotfiles are currently outdated and are not being actively maintained. I'll be refreshing the repository with my latest setup in the future :)
+## ⚠️ Notice: These dotfiles are currently outdated and are not being actively maintained. I'll be refreshing the repository with my latest setup in the future
 
 
 
